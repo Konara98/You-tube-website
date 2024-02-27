@@ -5,4 +5,30 @@
     bottom: 0px;
     top: 57px;
     width: 72px;
+    z-index: 200;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.side-bar-link {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar-link:hover {
+    background-color: lightgray;
+}
+
+.side-bar-link img {
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+.side-bar-link div {
+    height: 25px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
 }
