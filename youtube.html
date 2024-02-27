@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
-
 <head>
     <title>
         YouTube.com
     </title>
 
+    <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link to Roboto font family -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Link to external CSS files -->
     <link rel="stylesheet" href="./Styles/general.css">
     <link rel="stylesheet" href="./Styles/header.css">
     <link rel="stylesheet" href="./Styles/video.css">
@@ -17,45 +19,59 @@
 </head>
 
 <body class="body">
+    <!-- Header section -->
     <header class="header">
         <div class="left-section">
+            <!-- Hamburger Menu Icon -->
             <img class="hamburger-menu" src="./Icons/hamburger-menu.svg" alt="Hamburger Menu">
+            <!-- YouTube Logo -->
             <img class="youtube-logo" src="./Icons/youtube-logo.svg" alt="YouTube Logo">
         </div>
         <div class="middle-section">
+            <!-- Search Bar -->
             <input class="search-bar" type="text" placeholder="Search">
+            <!-- Search Button -->
             <button class="search-button">
                 <img class="search-icon" src="./Icons/search.svg" alt="">
+                <!-- Tooltip for Search Button -->
                 <div class="tooltip">Search</div>
             </button>
-            <!--Put position absolute inside position relative-->
+            <!-- Voice Search Button -->
             <button class="voice-search-button">
                 <img class="voice-search-icon" src="./Icons/voice-search-icon.svg" alt="">
+                <!-- Tooltip for Voice Search Button -->
                 <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
+            <!-- Upload Icon -->
             <div class="upload-icon-container">
                 <img class="upload-icon" src="./Icons/upload.svg" alt="">
+                <!-- Tooltip for Upload Icon -->
                 <div class="tooltip">Create</div>
             </div>
-
+            <!-- YouTube Apps Icon -->
             <div class="youtube-apps-icon-container">
                 <img class="youtube-apps-icon" src="./Icons/youtube-apps.svg" alt="">
+                <!-- Tooltip for YouTube Apps Icon -->
                 <div class="tooltip">YouTube apps</div>
             </div>
-
+            <!-- Notification Icon -->
             <div class="notification-icon-container">
                 <img class="notification-icon" src="./Icons/notifications.svg" alt="">
+                <!-- Notification Count -->
                 <div class="notification-count">3</div>
+                <!-- Tooltip for Notification Icon -->
                 <div class="tooltip">Notifications</div>
             </div>
-
+            <!-- Current User Picture -->
             <img class="current-user-picture" src="./Channel-pictures/my-channel.jpg" alt="">
         </div>
     </header>
 
+    <!-- Sidebar section -->
     <nav class="side-bar">
+        <!-- Sidebar Links -->
         <div class="side-bar-link">
             <img src="./Icons/home.svg" alt="">
             <div>Home</div>
@@ -82,25 +98,34 @@
         </div>
     </nav>
 
+    <!-- Main content section -->
     <main>
+        <!-- Video Grid Section -->
         <section class="video-grid">
+            <!-- Video Previews -->
             <div class="video-preview">
+                <!-- Thumbnail and Video Time -->
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="./Thumbnails/thumbnail-1.webp" alt="Description of the image">
                     <div class="video-time">14:20</div>
                 </div>
+                <!-- Video Info Grid -->
                 <div class="video-info-grid">
+                    <!-- Channel Picture -->
                     <div class="channel-picture">
-                        <img class="profile-picture" src="./Channel-pictures/channel-1.jpeg"
-                            alt="Description of the image">
+                        <img class="profile-picture" src="./Channel-pictures/channel-1.jpeg" alt="Description of the image">
                     </div>
+                    <!-- Video Info -->
                     <div class="video-info">
+                        <!-- Video Title -->
                         <p class="video-title">
                             Talking Tech and AI with Google CEO Sundar Pichai!
                         </p>
+                        <!-- Video Author -->
                         <p class="video-author">
                             Marques Brownlee
                         </p>
+                        <!-- Video Stats -->
                         <p class="video-stats">
                             3.4M views &#183 6 months ago
                         </p>
@@ -278,5 +303,4 @@
         </section>
     </main>
 </body>
-
 </html>
